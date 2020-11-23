@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.scss';
+
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to PERN Auth</h1>
+      <h1 className="homeTitle">Collab Project</h1>
     </div>
   );
 }
