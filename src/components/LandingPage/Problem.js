@@ -11,15 +11,15 @@ const Problem = () => {
             <div className="statContainer">
                 <div id="statSquare">
                     <h3>12,486</h3>
-                    <p className="statBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor ac augue suscipit vulputate. Nulla maximus placerat nibh, nec aliquam augue euismod vitae. Aliquam.</p>
+                    <p className="statBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor ac augue suscipit vulputate.</p>
                 </div>
                 <div id="statSquare">
                     <h3>231,889</h3>
-                    <p className="statBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor ac augue suscipit vulputate. Nulla maximus placerat nibh, nec aliquam augue euismod vitae. Aliquam.</p>
+                    <p className="statBlurb">Nulla maximus placerat nibh, nec aliquam augue euismod vitae. Aliquam.</p>
                 </div>
                 <div id="statSquare">
                     <h3>4,576</h3>
-                    <p className="statBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor ac augue suscipit vulputate. Nulla maximus placerat nibh, nec aliquam augue euismod vitae. Aliquam.</p>
+                    <p className="statBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus placerat nibh, nec aliquam augue euismod vitae. Aliquam.</p>
                 </div>
             </div>
         

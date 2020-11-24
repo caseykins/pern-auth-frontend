@@ -3,6 +3,7 @@
     background: #7B27F6;
     color: white;
     font-family: garamond;
+    margin-top: -22px;
 
     a {
         color: #fff;
@@ -15,18 +16,37 @@
     }
 }
 
+.footerHead {
+    padding: 50px 0px 0px 0px;
+}
+
 .footerNav {
     display: flex;
     justify-content: space-evenly;
-    margin: 20px 40px;
+    // margin: 20px 40px;
     padding: 20px;
 }
 
 .socials {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
-#icon {
-    margin: 15px;
+#fb {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
+
+#ig {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
+
+#twitter {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
 }

@@ -25,6 +25,15 @@ const Header = (props) => {
           <Link to={'/'}>Subscribe</Link>
         </div>
       </div>
+      <div className="login">
+        <button 
+          id="signupBtn"> Sign Up 
+          <img 
+            id="loginIcon" 
+            alt="" 
+            src="https://i.imgur.com/tSaACkn.png" />
+        </button>
+      </div>
         {/* <div className="links">
           <ul>
             { props.currentUser ? 

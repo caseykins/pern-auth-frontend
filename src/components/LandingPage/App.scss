@@ -9,6 +9,16 @@
     width: 100vw;
 }
 
+#caption {
+    position: absolute;
+    top: 165px;
+    left: 120px;
+    font-family: garamond;
+    font-size: 2em;
+    color: rgb(67, 62, 62);
+    letter-spacing: 1px;
+}
+
 // =========== Mission.js ===========
 
 .missionHead {
@@ -38,6 +48,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 75px;
+    // align-items: flex-start;
 }
 
 .missionImg {
@@ -48,12 +59,13 @@
     display: flex;
     flex-direction: column;
     width: 33vw;
-    margin-top: 75px;
+    align-items: flex-start;
 }
 
 .missionBlurb {
     display: flex;
     font-size: 18px;
+    text-align: left;
 }
 
 // ============ Problem.js ==============
@@ -100,7 +112,7 @@
 // ============== Help.js =============
 
 .helpHead {
-    margin-top: 150px;
+    margin: 150px 0px 0px 0px;
 }
 
 #help {
@@ -160,6 +172,8 @@
 
 .Newsletter {
     background: #FC21FC;
+    margin-top: 0px;
+    font-family: garamond;
 }
 
 .newsTop {
@@ -169,8 +183,50 @@
 
 #newsHead {
     font-family: garamond;
+    margin-left: 25px;
 }
 
 #aliens {
     width: 20vw;
+}
+
+.newsForm {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-left: 10vw;
+}
+
+.rightSide {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.forms {
+    width: 45vw;
+}
+
+.newsInput {
+    justify-content: flex-start;
+    align-content: center;
+    margin: 5px 10px 5px 25px;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.subscribe {
+    background: #14FCD9;
+    border: 3px solid #14FCD9;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#disclaimer {
+    font-family: garamond;
+    color: white;
+    text-align: left;
+    width: 50vw;
+    margin-left: 25px;
 }
