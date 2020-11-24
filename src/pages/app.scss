@@ -3,3 +3,22 @@
 .homeTitle {
     font-weight: bold;
 }
+
+// =========== Dashboard.js ================
+
+.container {
+    width: 95vw;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.widget {
+    width: 20vw;
+    border: 1px solid black;
+}
+
+
+.userInfo {
+    list-style: none;
+}

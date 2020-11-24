@@ -5,7 +5,8 @@ import './App.scss';
 const Home = () => {
   return (
     <div>
-      <h1 className="homeTitle">Collab Project</h1>
+      <h1 className="homeTitle">Sandcastles: A Threat of Interplanetary Resource Expropriation
+      </h1>
     </div>
   );
 }
