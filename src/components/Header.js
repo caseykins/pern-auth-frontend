@@ -8,11 +8,14 @@ const Header = (props) => {
         <div className="home">
           <Link to={'/'}>Home!</Link>
         </div>
+        <div>
+          <Link to={'/dashboard'}>Dashboard</Link>
+        </div>
         <div className="links">
           <ul>
             { props.currentUser ? 
               <>
-                <li><Link to={'/profile'}>Profile</Link></li>
+                <li><Link to={'/dashboard'}>Dashboard</Link></li>
                 <li><a href="/logout" onClick={ props.logout }>Log Out</a></li>
               </>
             :
