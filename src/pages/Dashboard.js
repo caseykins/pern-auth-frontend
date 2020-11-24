@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import ReactDom from 'react-dom';
 import UserModel from '../models/user';
-import '../components/Dashboard/Dashboard.scss'
+// import '../components/Dashboard/Dashboard.scss'
+import SideBar from '../components/Dashboard/SideBar'
+import ProfileCard from '../components/Dashboard/ProfileCard'
 
 
 const Dashboard = (props) => {
@@ -20,7 +22,9 @@ const Dashboard = (props) => {
 
   return (
     <div>
+      <SideBar />
       { users.map }
+      <ProfileCard />
     </div>
   )
 }
