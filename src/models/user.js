@@ -11,6 +11,11 @@ export default class UserModel {
     }).then(res => res.json())
   }
 
+  static show(){
+    return fetch(`${REACT_APP_API_URL}/user`)
+      .then(res => res.json())
+  }
+
   static login(credentials) {
     // remember to send authorization headers
     return fetch(`${REACT_APP_API_URL}/auth/login`, {
