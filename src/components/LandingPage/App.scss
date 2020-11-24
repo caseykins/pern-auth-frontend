@@ -1,0 +1,176 @@
+// ============ Home.js =============
+
+
+// =========== Carousel.js ==============
+
+.carousel {
+    margin-top: -22px;
+    height: 500px;
+    width: 100vw;
+}
+
+// =========== Mission.js ===========
+
+.missionHead {
+    margin-top: 100px;
+}
+
+#mission {
+    text-align: center;
+    font-family: garamond;
+    background:white; 
+    padding:0 25px; 
+}
+
+#line {
+    text-align: center;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#ufo {
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.missionBody {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+.missionImg {
+    display: flex;
+}
+
+.blurbContainer {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    margin-top: 75px;
+}
+
+.missionBlurb {
+    display: flex;
+    font-size: 18px;
+}
+
+// ============ Problem.js ==============
+
+.Problem {
+    background: #14FCD9;
+}
+
+.problemHead {
+    margin: 150px 0px 50px 0px;
+    padding-top: 100px;
+}
+
+#line {
+    text-align: center;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#problem {
+    margin-top: 100px;
+    background: #14FCD9;
+    padding: 0px 25px;
+    font-family: garamond;
+}
+
+.statContainer {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#statSquare {
+    background: linear-gradient(white, #7B27F6);
+    border-radius: 15px;
+    width: 18vw;
+    margin: 25px 0px 75px 0px;
+}
+
+.statBlurb {
+    color: white;
+}
+
+// ============== Help.js =============
+
+.helpHead {
+    margin-top: 150px;
+}
+
+#help {
+    font-family: garamond;
+    background: white;
+    padding: 0px 25px;
+}
+
+#line {
+    text-align: center;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.topHalf {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#helpImg {
+    height: 400px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.helpBlurb {
+    width: 20vw;
+    text-align: left;
+}
+
+.helpBtn {
+    background: #14FCD9;
+    border: 1px solid #14FCD9;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.605);
+}
+
+.bottomHalf {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 50px 0px;
+}
+
+.helpCard {
+    background: #14FCD9;
+    width: 33vw;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+// =========== Newsletter.js ===========
+
+.Newsletter {
+    background: #FC21FC;
+}
+
+.newsTop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#newsHead {
+    font-family: garamond;
+}
+
+#aliens {
+    width: 20vw;
+}
