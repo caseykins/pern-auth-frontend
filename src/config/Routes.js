@@ -4,7 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import Home from '../pages/Home'
 import Register from '../pages/Register'
 import Login from '../pages/Login'
-import Profile from '../pages/Profile'
+import Dashboard from '../pages/Dashboard'
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   const currentUser = localStorage.getItem('id')
@@ -18,6 +18,7 @@ const Routes = (props) => (
   <Switch>
     <Route exact path='/' component={ Home } />
     <Route path='/register' component={ Register } />
+    <Route path='/dashboard' component={ Dashboard } />
     <Route path='/login' render={ (routeComponentProps) => {
       return  <Login 
                 {...routeComponentProps}
@@ -26,7 +27,7 @@ const Routes = (props) => (
                 storeUser={ props.storeUser }
               />
     } } />
-    <PrivateRoute path='/profile' component={ Profile } currentUser={ props.currentUser } />
+    {/* <PrivateRoute path='/dashboard' component={ Profile } currentUser={ props.currentUser } /> */}
   </Switch>
 )
 
