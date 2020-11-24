@@ -14,9 +14,9 @@ const Footer = () => {
         <a>The Solution</a>
       </div>
       <div className="socials">
-        <h5 id="icon">Placeholder</h5>
-        <h5 id="icon">Placeholder</h5>
-        <h5 id="icon">Placeholder</h5>
+        <img id="fb" src="https://i.imgur.com/ozH7a5D.png" alt="" />
+        <img id="ig" src="https://i.imgur.com/ieto9uW.png" alt="" />
+        <img id="twitter" src="https://i.imgur.com/qb0vRvP.png" alt="" />
       </div>
     </div>
   )

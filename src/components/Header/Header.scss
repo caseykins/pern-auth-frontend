@@ -24,6 +24,12 @@
     padding: 5px 20px;
   }
 
+  .login {
+    position: absolute;
+    right: 35px;
+    top: 75px;
+  }
+
   ul {
     flex-direction: row;
     right: 0px;
@@ -50,4 +56,29 @@
   font-weight: bold;
   font-size: 50px;
   margin: 0px 40px;
+}
+
+#signupBtn {
+  background-color: #7B27F6;
+  border: 1px solid white;
+  font-family: garamond;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+
+  &:hover {
+    color: darken(#fff, 20%);
+    transform: scale(1.15);
+  }
+}
+
+#loginIcon {
+  width: 15px;
+  height: 15px;
+  padding: 0px 5px;
+
+  &:hover {
+    color: darken(#fff, 20%)
+  }
 }
