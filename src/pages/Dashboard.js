@@ -5,7 +5,7 @@ import '../components/Dashboard/Dashboard.scss'
 
 
 const Dashboard = (props) => {
-  const [name, setName] = useState([])
+  const [users, setUsers] = useState([])
   const [email, setEmail] = useState('')
   
   useEffect(()=>{
@@ -14,13 +14,13 @@ const Dashboard = (props) => {
   
   const fetchData =() => {
     UserModel.show().then(data => {
-        setName( data.allUsers )
+        setUsers( data.allUsers )
       })
     }
 
   return (
     <div>
-      { props.name }
+      { users.map }
     </div>
   )
 }
