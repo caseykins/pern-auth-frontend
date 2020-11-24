@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.scss';
+import Carousel from '../components/Carousel'
+import Mission from '../components/Mission'
 
 
 const Home = () => {
   return (
     <div>
-      <h1 className="homeTitle">Sandcastles: A Threat of Interplanetary Resource Expropriation
-      </h1>
+      {/* components here */}
+      <Carousel />
+      <Mission />
     </div>
   );
 }
