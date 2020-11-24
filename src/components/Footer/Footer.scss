@@ -1,0 +1,32 @@
+.footer {
+    width: 100vw;
+    background: #7B27F6;
+    color: white;
+    font-family: garamond;
+
+    a {
+        color: #fff;
+        transition: color 0.3s ease;
+    
+        &:hover {
+            color: darken(#fff, 20%);
+            cursor: pointer;
+        }
+    }
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 40px;
+    padding: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+#icon {
+    margin: 15px;
+}

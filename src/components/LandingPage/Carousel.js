@@ -1,9 +1,9 @@
 import React from 'react';
-import '../pages/App.scss'
+import './App.scss'
 
 const Carousel = () => {
     return (
-        <div>
+        <div className="Carousel">
             <img class="carousel" src="https://i.imgur.com/IPtkDwI.png?2" />
         </div>
     );
