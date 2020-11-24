@@ -8,23 +8,22 @@ import ProfileCard from '../components/Dashboard/ProfileCard'
 
 const Dashboard = (props) => {
   const [users, setUsers] = useState([])
-  const [email, setEmail] = useState('')
   
   useEffect(()=>{
     fetchData()
-  })
+  },[])
   
   const fetchData =() => {
     UserModel.show().then(data => {
+      console.log(data)
         setUsers( data.allUsers )
       })
     }
 
   return (
     <div>
-      <SideBar />
-      { users.map }
-      <ProfileCard />
+      <SideBar users= { users } />
+      <ProfileCard users={ users } />
     </div>
   )
 }
