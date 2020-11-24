@@ -136,14 +136,28 @@
     z-index: 1;
     left: 25vw;
     top: 40px;
+    width: 75vw;
+    display: flex;
 }
 
-#line {
+#dashLine {
     position: absolute;
     z-index: 1;
     border-bottom: 1px solid #000; 
     line-height: 0.1em;
     top: 45px;
-    width: 100vw;
-    padding: 10px 0px;
+    width: 75vw;
+}
+
+.profile {
+    position: absolute;
+    right: 30px;
+    top: 85px;
+    width: 72vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#memberProfile {
+    font-weight: bolder;
 }
