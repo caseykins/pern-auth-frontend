@@ -22,16 +22,7 @@ const Dashboard = (props) => {
 
   return (
     <div>
-        {/* { users.map((user) => {
-          return ( 
-            <div>
-              <p id="name">{ user.name }:</p>
-              <p id="email">{ user.email }</p>
-            </div>
-          )
-        }) 
-      }  */}
-      <SideBar />
+      <SideBar users= { users } />
       <ProfileCard users={ users } />
     </div>
   )

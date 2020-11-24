@@ -1,7 +1,7 @@
 import React from 'react';
 import './Dashboard.scss'
 
-const SideBar = () => {
+const SideBar = (props) => {
     return (
         <div className="SideBar">
             <aside className="aside">
@@ -13,7 +13,7 @@ const SideBar = () => {
                         <img className="userPic" 
                             src="https://i.imgur.com/BgZ4S6q.png" 
                             alt=""/>
-                        <h5 id="dashEmail">Cicero.Rome@pigeoncarrier.com</h5>
+                        <h5 id="dashEmail">casey@test.com</h5>
                         <h3 id="role">Administrator</h3>
                     </div>
                 </div>
